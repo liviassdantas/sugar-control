@@ -1,6 +1,6 @@
 import { Injectable, InternalServerErrorException } from '@nestjs/common';
 import { JwtService } from '@nestjs/jwt';
-import { AccountService } from '../accounts/accounts.service';
+import { AccountService } from '../patients/patients.service';
 import { ValidateSecurity } from '../utils/security.util';
 import { jwtConstants } from './constants';
 
